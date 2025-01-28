@@ -1,7 +1,7 @@
 {
   "name": "trae-theme",
   "displayName": "Trae Theme",
-  "description": "Official theme collection from Trae IDE, bringing its distinctive look and feel to VS Code.",
+  "description": "Replica of the themes from Trae IDE, bringing its distinctive look and feel to VS Code.",
   "version": "1.0.0",
   "publisher": "Paulo Rodrigues",
   "repository": {
