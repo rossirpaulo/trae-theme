@@ -12,6 +12,15 @@ This extension brings the themes from Trae IDE to Visual Studio Code.
 - **Trae High Contrast Dark** - High contrast theme for better accessibility
 - **Trae High Contrast Light** - Light high contrast theme for accessibility
 
+## Fonts
+To bring the same look and feel, apply the following fonts to your VS Code `settings.json`:
+```json
+"editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
+```
+
+Make sure you have the fonts installed on your system.
+
+
 ## License
 
 MIT License - see LICENSE file for details
