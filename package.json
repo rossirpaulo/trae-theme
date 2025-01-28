@@ -1,0 +1,65 @@
+{
+  "name": "trae-theme",
+  "displayName": "Trae Theme",
+  "description": "Official theme collection from Trae IDE, bringing its distinctive look and feel to VS Code.",
+  "version": "1.0.0",
+  "publisher": "Paulo Rodrigues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rossirpaulo/trae-theme"
+  },
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "trae",
+    "trae ide",
+    "color theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Trae Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/trae-dark-theme.json"
+      },
+      {
+        "label": "Trae Dark Blue",
+        "uiTheme": "vs-dark", 
+        "path": "./themes/dark_blue.json"
+      },
+      {
+        "label": "Trae Dark Modern",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark_modern.json"
+      },
+      {
+        "label": "Trae Dark+",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark_plus.json"
+      },
+      {
+        "label": "Trae Dark (Visual Studio)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark_vs.json"
+      },
+      {
+        "label": "Trae High Contrast Dark",
+        "uiTheme": "hc-black",
+        "path": "./themes/hc_black.json"
+      },
+      {
+        "label": "Trae High Contrast Light",
+        "uiTheme": "hc-light",
+        "path": "./themes/hc_light.json"
+      }
+    ]
+  },
+  "license": "MIT",
+  "icon": "icon.png"
+}
